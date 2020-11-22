@@ -2,7 +2,7 @@
 TARGET = Template
 
 # Sources
-CPP_SOURCES = PedalTemplate.cpp
+CPP_SOURCES = Template.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../../libdaisy

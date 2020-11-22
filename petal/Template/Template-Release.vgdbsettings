@@ -17,7 +17,7 @@
         <Revision>0</Revision>
       </Version>
     </ToolchainID>
-    <ProjectFile>PedalTemplate.vcxproj</ProjectFile>
+    <ProjectFile>Template.vcxproj</ProjectFile>
     <ParallelJobCount>0</ParallelJobCount>
     <SuppressDirectoryChangeMessages>true</SuppressDirectoryChangeMessages>
   </Build>

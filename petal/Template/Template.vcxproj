@@ -74,11 +74,11 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
-    <ClCompile Include="PedalTemplate.cpp" />
+    <ClCompile Include="Template.cpp" />
     <None Include="stm32.props" />
     <ClCompile Include="$(BSP_ROOT)\STM32H7xxxx\StartupFiles\startup_stm32h750xx.c" />
-    <None Include="PedalTemplate-Debug.vgdbsettings" />
-    <None Include="PedalTemplate-Release.vgdbsettings" />
+    <None Include="Template-Debug.vgdbsettings" />
+    <None Include="Template-Release.vgdbsettings" />
     <None Include="stm32.xml" />
   </ItemGroup>
 </Project>

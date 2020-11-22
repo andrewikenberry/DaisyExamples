@@ -1,7 +1,9 @@
-// Basic Template for DaisyPetal
+// Daisy Petal Template
 #include "daisy_petal.h"
+#include "daisysp.h"
 
 using namespace daisy;
+using namespace daisysp;
 
 DaisyPetal hw;
 
@@ -9,6 +11,7 @@ void AudioCallback(float *in, float *out, size_t size)
 {
     hw.DebounceControls();
     hw.UpdateAnalogControls();
+
     for(size_t i = 0; i < size; i += 2)
     {
         out[i]     = in[i];
@@ -21,5 +24,6 @@ int main(void)
     hw.Init();
     hw.StartAdc();
     hw.StartAudio(AudioCallback);
-    for(;;) {}
+    
+    while (1) {}
 }

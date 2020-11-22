@@ -1,5 +1,5 @@
 # Project Name
-TARGET = ex_field_template
+TARGET = ex_field_Template
 
 # Sources
 CPP_SOURCES = main.cpp

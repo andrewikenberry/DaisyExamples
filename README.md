@@ -1,11 +1,10 @@
 ![](https://github.com/electro-smith/daisyexamples/blob/master/resources/assets/banner.png)
 
-**DaisyExamples is a collection of example programs for the [Daisy Embedded Audio Platform.](https://www.electro-smith.com/daisy)** 
-
+**This repo contains example programs for the [Daisy Embedded Audio Platform.](https://www.electro-smith.com/daisy)** 
 
 If you are just getting started with Daisy, check out our [Getting Started Wiki page!](https://github.com/electro-smith/DaisyWiki/wiki)
 
-Examples are broken down by hardware platform.
+Examples are organized by hardware platform.
 
 Included as well are:
 - Both libraries as git submodules
@@ -14,7 +13,7 @@ Included as well are:
 
 ## Getting Started
 
-First off there are a few ways to clone and initialize the repo (with its submodules).
+There are a few ways to clone and initialize the repo (with its submodules).
 
 You can do either of the following:
 
